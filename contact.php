@@ -85,6 +85,8 @@ if(mail($address, $e_subject, $msg, $headers)) {
 
 } else {
 
-	echo 'ERROR!';
+	echo 'UY parece que hay un error';
 
 }
+
+//migrar el formulario en la medida de lo posible de php a node.js

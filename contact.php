@@ -45,7 +45,7 @@ if(get_magic_quotes_gpc()) {
 // Example $address = "joe.doe@yourdomain.com";
 
 //$address = "example@themeforest.net";
-$address = "example@yourdomain.com";
+$address = "enlaceagenciamarketing@gmail.com";
 
 
 // Configuration option.
@@ -78,7 +78,7 @@ if(mail($address, $e_subject, $msg, $headers)) {
 
 	echo "<fieldset>";
 	echo "<div id='success_page'>";
-	echo "<h1>Email Sent Successfully.</h1>";
+	echo "<h1>Tu email fue enviado con exito.</h1>";
 	echo "<p>Thank you <strong>$first_name</strong>, your message has been submitted to us.</p>";
 	echo "</div>";
 	echo "</fieldset>";
